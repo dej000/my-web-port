@@ -11,3 +11,10 @@
         document.body.classList.toggle("light-mode");
     })
 })();
+var myMusic= document.getElementById("music");
+function play() {
+myMusic.play();
+}
+function pause() {
+myMusic.pause();
+}
